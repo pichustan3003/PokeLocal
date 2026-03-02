@@ -1,0 +1,17 @@
+﻿using Python.Runtime;
+
+namespace PokeHomeLocal
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        { 
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Runtime.PythonDLL = @"C:\Users\mike3\AppData\Local\Programs\Python\Python313\python313.dll";
+        }
+    }
+}
